@@ -1,0 +1,97 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+body {
+  font-size: 120%;
+  background: #F8F8FF;
+}
+
+.header {
+  width: 30%;
+  margin: 50px auto 0px;
+  color: white;
+  background: #141515;
+  text-align: center;
+  border: 1px solid #980000;
+  border-bottom: none;
+  border-radius: 10px 10px 0px 0px;
+  padding: 20px;
+}
+form.fgame {
+  position: relative;
+  left: -21px;
+  top: -31px;
+  width: 408px !important;
+  display: grid;
+  border-radius: 0px !important;
+
+}
+form, .content {
+  width: 30%;
+  margin: 0px auto;
+  padding: 20px;
+  border: 1px solid #980000;
+  background: #252525;
+  border-radius: 0px 0px 10px 10px;
+}
+label {
+  float:left;
+}
+input {
+float:left;
+}
+input[type=button] {
+  padding: 15px;
+  width:99% !important;
+}
+.input-group {
+  margin: 10px 0px 10px 0px;
+}
+.input-group label {
+  display: block;
+  text-align: left;
+  margin: 3px;
+}
+.input-group input {
+  color:#fff;
+  height: 30px;
+  width: 93%;
+  padding: 5px 10px;
+  font-size: 16px;
+  border-radius: 5px;
+  border: 1px solid #980000;
+  background-color: #3a3a3a;
+}
+span.max_size {
+  color:#212121;
+  font-size:9px;
+}
+a.logout {
+  text-align: right;
+}
+.btn {
+  margin-top: 10px;
+  padding: 10px;
+  font-size: 15px;
+  color: white;
+  background: #141515;
+  border: none;
+  border-radius: 5px;
+}
+.error {
+  width: 92%; 
+  margin: 0px auto; 
+  padding: 10px; 
+  border: 1px solid #a94442; 
+  color: #a94442; 
+  background: #f2dede; 
+  border-radius: 5px; 
+  text-align: left;
+}
+.success {
+  color: #3c763d; 
+  background: #dff0d8; 
+  border: 1px solid #3c763d;
+  margin-bottom: 40px;
+}
